@@ -11,7 +11,7 @@ This client uses the `requests` package from the Python Package Index (PyPI).
 If you are not sure if your python installion includes the `requests` package, you may need to run the following command to install the prerequisites:
 
 ```
-pip -m install requests
+python -m pip install requests
 ```
 
 # Usage
