@@ -27,7 +27,19 @@ We can run the client to query the ENA CRAM archive with the MD5 checksum of `30
 ```
 python client.py 3050107579885e1608e6fe50fae3f8d0
 ```
-If there is no error, the response will be output in JSON printed onto the console. 
+If there is no error, the response will be output in JSON printed onto the console as follows:
+```
+PS C:\refget-client-example> python client.py 3050107579885e1608e6fe50fae3f8d0
+{
+    "metadata": {
+        "aliases": [],
+        "id": "3050107579885e1608e6fe50fae3f8d0",
+        "length": 7156,
+        "md5": "3050107579885e1608e6fe50fae3f8d0",
+        "trunc512": null
+    }
+}
+```
 
 Additionally, if you would like to output the resulting metadata into a file, you may pipe it to an output file with the following command:
 
