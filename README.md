@@ -1,6 +1,6 @@
 # Introduction
 
-This is a basic client run from the console that allows the user to query the ENA CRAM archive server with an MD5 checksum, obtained from the [GA4GH refget standard](https://samtools.github.io/hts-specs/refget.html), for a specific reference sequence's metadata. The server replies with a json document holding the metadata if the MD5 checksum is valid. If the MD5 checksum is invalid, it will respond with a 404 Not Found error. HTTP error responses are outlined in the [refget document](https://samtools.github.io/hts-specs/refget.html#errors).
+This is a basic client run from the console that allows the user to query the ENA CRAM archive server with an MD5 checksum, obtained from the [GA4GH refget standard](https://samtools.github.io/hts-specs/refget.html), for a specific reference sequence's metadata. The server replies with a json document holding the metadata if the MD5 checksum is valid. If the MD5 checksum is invalid, it will respond with a 404 Not Found error. HTTP error responses are outlined in the [refget API specification](https://samtools.github.io/hts-specs/refget.html#errors).
 
 
 
